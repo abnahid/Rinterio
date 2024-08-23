@@ -30,114 +30,119 @@
 
 </head>
 
-<body class="font-manrope bg-slate-100">
+<body>
 
     <!-- Header Section -->
-    <header class="md:container mx-auto">
-        <nav>
-            <div class="navbar bg-slate-100">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
+    <header class=" bg-slate-100">
+        <div class="md:container mx-auto">
+
+            <nav>
+                <div class="navbar bg-slate-100">
+                    <div class="navbar-start">
+                        <a href="#" class="text-xl font-extrabold flex items-center space-x-2">
+                            <div class="rounded-full text-black bg-[#ABEF5F] p-1 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+
+                            </div>
+
+                            <h1 class="text-3xl">Rinterio</h1>
+                        </a>
+                    </div>
+                    <div class=" navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li class="font-semibold"><a>Home</a></li>
                             <li><a>Services</a></li>
                             <li><a>Portfolio</a></li>
                             <li><a>Blogs</a></li>
                             <li><a>Contact Us</a></li>
                         </ul>
                     </div>
-                    <a href="#" class="text-xl font-extrabold flex items-center space-x-2">
+                    <div class="navbar-end space-x-3">
+                        <button class="btn btn-ghost btn-circle bg-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </button>
+                        <button class="btn btn-ghost btn-circle bg-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </button>
+                        <a href="#"
+                            class=" bg-[#ABEF5F] border-none rounded-full flex items-center space-x-2 py-3 px-5">
+                            <h2 class="text-black font-extrabold text-xl">Book Consult</h2>
+                            <div class="rounded-full text-white bg-[#1C1C1C] p-1 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+                            </div>
+                        </a>
+
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a>Home</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Portfolio</a></li>
+                                <li><a>Blogs</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Banner Section -->
+            <div class="hero pb-32">
+                <div class="hero-content flex-col gap-4 ">
+                    <img src="assets/banner.png" class="rounded-lg object-cover lg:size-2/5 size-full" />
+                    <div class="w-8/10 m-auto">
+                        <h1 class="text-2xl md:text-4xl lg:text-7xl font-extrabold text-center mb-6">
+                            A barn house with this design stands out beautifully
+                        </h1>
+                        <p class=" text-center md:px-16 lg:w-10/12 m-auto">
+                            The barn home is a beautiful and highly functional blend of rustic beauty and modern
+                            refinement,
+                            combining aged wood accents with elegant metal accents, and bringing in a lot of natural
+                            daylight through its huge windows.
+                        </p>
+                    </div>
+                    <button
+                        class="bg-[#ABEF5F] bg-opacity-50 border-none rounded-full flex items-center space-x-3 py-3 px-5">
+                        <h3 class="font-extrabold text-black text-xl">View Details</h3>
                         <div class="rounded-full text-black bg-[#ABEF5F] p-1 ">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>
-
                         </div>
-
-                        <h1 class="text-3xl">Rinterio</h1>
-                    </a>
-                </div>
-                <div class=" navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li class="font-semibold"><a>Home</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>Blogs</a></li>
-                        <li><a>Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-end space-x-3">
-                    <button class="btn btn-ghost btn-circle bg-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                        </svg>
                     </button>
-                    <button class="btn btn-ghost btn-circle bg-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                        </svg>
-                    </button>
-                    <a href="#" class=" bg-[#ABEF5F] border-none rounded-full flex items-center space-x-2 py-3 px-5">
-                        <h2 class="text-black font-extrabold text-xl">Book Consult</h2>
-                        <div class="rounded-full text-white bg-[#1C1C1C] p-1 ">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-5">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                            </svg>
-                        </div>
-                    </a>
                 </div>
-            </div>
-        </nav>
-
-        <!-- Banner Section -->
-        <div class="hero">
-            <div class="hero-content flex-col gap-4 ">
-                <img src="assets/banner.png" class="rounded-lg object-cover size-2/5" />
-                <div class="w-8/10 m-auto">
-                    <h1 class="text-2xl md:text-4xl lg:text-7xl font-extrabold text-center mb-6">
-                        A barn house with this design stands out beautifully
-                    </h1>
-                    <p class=" text-center md:px-16 lg:w-10/12 m-auto">
-                        The barn home is a beautiful and highly functional blend of rustic beauty and modern refinement,
-                        combining aged wood accents with elegant metal accents, and bringing in a lot of natural
-                        daylight through its huge windows.
-                    </p>
-                </div>
-                <button
-                    class="bg-[#ABEF5F] bg-opacity-50 border-none rounded-full flex items-center space-x-3 py-3 px-5">
-                    <h3 class="font-extrabold text-black text-xl">View Details</h3>
-                    <div class="rounded-full text-black bg-[#ABEF5F] p-1 ">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-5">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                        </svg>
-                    </div>
-                </button>
             </div>
         </div>
-
     </header>
 
     <main>
 
-        <section class="bg-gray-300 my-32">
+        <section class="bg-gray-300 mb-32">
             <div class="md:container mx-auto">
 
                 <!-- About Section -->
@@ -145,10 +150,9 @@
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center pt-20 pb-20">
                         <div class="space-y-7 flex flex-col items-center lg:items-start px-4">
                             <div class="relative py-2 text-center lg:text-left">
-                                <img src="assets/Vector.png" alt="Decorative vector"
-                                    class="absolute -top-12 -left-10" />
+                                <img src="assets/Vector.png" alt="" class="absolute -top-12 -left-10 hidden lg:block" />
                                 <button
-                                    class="bg-gray-100 text-gray-600 px-4 py-2 rounded-full text-sm font-medium flex items-center justify-center lg:justify-start">
+                                    class="bg-gray-100 text-gray-600 px-4 py-2 rounded-full text-xl fobt-bold font-medium flex items-center justify-center lg:justify-start">
                                     <span class="mr-2">
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </span>
@@ -165,7 +169,7 @@
                             <div
                                 class="bg-white rounded-2xl shadow-lg p-6 space-y-4 flex flex-col items-center lg:items-start">
                                 <div class="flex items-start lg:items-center lg:justify-start">
-                                    <img src="./assets/commercial.png" alt="Commercial icon" class="w-12 h-12 mr-4" />
+                                    <img src="./assets/commercial.png" alt="" class="w-12 h-12 mr-4" />
                                     <div>
                                         <h3 class="font-extrabold text-xl mb-2">Commercial</h3>
                                         <p class="text-gray-600">
@@ -178,8 +182,7 @@
                             <div
                                 class="bg-white rounded-2xl shadow-lg p-6 space-y-4 flex flex-col items-center lg:items-start">
                                 <div class="flex items-start lg:items-center lg:justify-start">
-                                    <img src="./assets/residential.png" alt="Residential icon"
-                                        class="w-12 h-12 mr-4 " />
+                                    <img src="assets/residential.png" alt="" class="w-12 h-12 mr-4 " />
                                     <div>
                                         <h3 class="font-extrabold text-xl mb-2">Residential</h3>
                                         <p class="text-gray-600">
@@ -192,8 +195,7 @@
                             </div>
                         </div>
                         <div class="flex justify-center lg:justify-end px-4">
-                            <img src="./assets/Rectangle.png" alt="Modern house design"
-                                class="rounded-2xl shadow-lg w-auto" />
+                            <img src="./assets/Rectangle.png" alt="" class="rounded-2xl shadow-lg w-auto" />
                         </div>
                     </div>
                 </div>
@@ -258,7 +260,7 @@
                             </div>
                             <h4 class="text-[#494949]">How we work</h4>
                         </div>
-                        <h2 class="text-2xl  md:text-3xl lg:text-6xl font-extrabold ">Our Works Process</h2>
+                        <h2 class="text-3xl lg:text-6xl font-extrabold ">Our Works Process</h2>
                         <p class="text-[#494949] text-center max-w-2xl ">Our works process seamlessly combines
                             innovative design
                             with meticulous execution, ensuring every project achieves excellence and meets client
@@ -326,27 +328,119 @@
         </section>
 
         <!-- Portfolio section -->
-        <section class="my-24">
+        <section class=" my-24">
+            <div class="container mx-auto px-4">
 
-            <!-- Text -->
-            <div class=" flex flex-col items-center justify-center gap-6 font-extrabold">
-                <div class="bg-white bg-opacity-50 border-none rounded-full flex items-center space-x-3 py-3 px-5">
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                        </svg>
+                <!-- Text -->
+                <div class=" flex flex-col items-center justify-center gap-6 font-extrabold pb-6">
+                    <div
+                        class="bg-[#ABEF5F33] bg-opacity-50 border-none rounded-full flex items-center space-x-3 py-3 px-5">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>
+                        </div>
+                        <h4 class="text-[#494949] font-bold">Explore our Latest works</h4>
                     </div>
-                    <h4 class="text-[#494949]">How we work</h4>
+                    <h2 class="text-3xl lg:text-6xl font-extrabold ">Our Latest Portfolio</h2>
+                    <p class="text-[#494949] text-center max-w-2xl ">features diverse projects showcasing cutting-edge
+                        design and meticulous craftsmanship, highlighting our commitment to quality and innovation in
+                        every endeavor.</p>
                 </div>
-                <h2 class="text-2xl  md:text-3xl lg:text-6xl font-extrabold ">Our Works Process</h2>
-                <p class="text-[#494949] text-center max-w-2xl ">Our works process seamlessly combines
-                    innovative design
-                    with meticulous execution, ensuring every project achieves excellence and meets client
-                    expectations.</p>
-            </div>
+
+                <!-- Portfolio Grid -->
+                <div class="space-y-8">
+                    <!-- Portfolio Column 1 -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                        <!-- Column 1 -->
+                        <div
+                            class="flex flex-col md:flex-row lg:flex-row md:col-span-2 lg:col-span-2 bg-white shadow rounded-3xl overflow-hidden p-5 md:p-6">
+                            <div class="md:w-2/5 lg:w-2/5 h-auto ">
+                                <img src="assets/img1.png" alt="" class="size-full object-cover rounded-3xl">
+                            </div>
+                            <div class="w-3/5 p-5 md:p-6 sm:w-full">
+                                <h3 class="text-2xl font-extrabold mb-4">Commercial</h3>
+                                <p class="text-gray-600 mb-6">Our commercial projects exemplify innovative design and
+                                    functionality, blending modern aesthetics with practical solutions to enhance
+                                    business environments and operational efficiency.</p>
+                                <a href="#" class="text-xl font-extrabold flex items-center space-x-2">
+                                    <h1 class="text-xl font-extrabold">View Details</h1>
+
+                                    <div class="rounded-full text-black bg-[#ABEF5F] p-1 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="size-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Column 2 -->
+                        <div class="bg-white shadow rounded-3xl  p-5 md:p-6">
+                            <img src="assets/img2.png" alt="" class="size-full object-cover rounded-3xl" />
+                        </div>
+
+                        <!-- Column Mobile & Tablet -->
+                        <div class="bg-white shadow rounded-3xl overflow-hidden lg:hidden p-5 md:p-6">
+                            <img src="assets/img5.png" alt="" class="size-full object-cover rounded-3xl" />
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Column 2 -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                        <!-- Column 1 -->
+                        <div class="bg-white shadow lg:block md:hidden sm:block rounded-3xl h-auto p-5 md:p-6">
+                            <img src="assets/img3.png" alt="" class="size-full object-cover rounded-3xl" />
+                        </div>
+
+                        <!-- Column 2 -->
+                        <div
+                            class="lg:col-span-2 md:col-span-2 bg-white shadow rounded-3xl flex flex-col md:flex-row lg:flex-row p-5 md:p-6">
+                            <div class="lg:w-1/2 ">
+                                <img src="assets/img4.png" alt="Commercial Project"
+                                    class="size-full object-cover rounded-3xl" />
+                            </div>
+                            <div class="lg:w-1/2  p-5 md:p-6">
+                                <h3 class="text-2xl font-extrabold mb-4">Commercial</h3>
+                                <p class="text-gray-600 mb-6">
+                                    Commercial projects combine modern design with practical solutions for business
+                                    efficiency.
+                                </p>
+                                <a href="#" class="text-xl font-extrabold flex items-center space-x-2">
+                                    <h1 class="text-xl font-extrabold">View Details</h1>
+
+                                    <div class="rounded-full text-black bg-[#ABEF5F] p-1 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="size-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <!-- Column Mobile & Tablet -->
+                        <div class="bg-white shadow lg:hidden rounded-3xl p-5 md:p-6">
+                            <img src="assets/img3.png" alt="" class="size-full object-cover rounded-3xl" />
+                        </div>
+
+                        <!--  Column 3-->
+                        <div class="bg-white shadow rounded-3xl  p-5 md:p-6">
+                            <img src="assets/img5.png" alt="" class="size-full object-cover rounded-3xl" />
+                        </div>
+                    </div>
+                </div>
         </section>
+
+
     </main>
 
     <footer></footer>
