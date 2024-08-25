@@ -94,7 +94,6 @@
                     </div>
 
 
-                    </a>
                     <div class="dropdown dropdown-left lg:hidden">
                         <div tabindex="0" role="button" class="btn btn-ghost text-4xl">
                             <i class="fa-regular fa-bars"></i>
@@ -204,7 +203,7 @@
                 </div>
 
                 <!-- Statistics Section -->
-                <div class="my-24">
+                <div class="my-24 p-5">
                     <div
                         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-10 bg-white items-center rounded-3xl">
 
@@ -446,7 +445,7 @@
 
         <!-- Articles section -->
         <section class="my-24">
-            <div class="container mx-auto ">
+            <div class="container mx-auto p-5">
 
                 <!-- Text -->
                 <div class=" flex flex-col items-center justify-center gap-6 font-extrabold pb-6">
@@ -635,7 +634,8 @@
             </div>
         </section>
 
-        <section class="bg-cover bg-center p-1 md:p-2">
+        <!-- Form Section -->
+        <section class="bg-cover bg-center p-1 md:p-2  bg-white">
             <div style="background-image: url('./assets/bg.jpg')">
                 <div class="container mx-auto px-4 text-center py-16">
 
@@ -689,7 +689,50 @@
         </section>
     </main>
 
-    <footer></footer>
+    <!-- Footer -->
+    <footer class="footer footer-center gap-y-10 bg-[#1C1C1C] text-[#E9E9E9] p-24 mb-4">
+        <aside>
+            <div>
+                <a href="#" class="text-xl font-extrabold flex items-center space-x-2">
+                    <div class="rounded-full text-black bg-[#ABEF5F] p-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </div>
+                    <h1 class="text-3xl">Rinterio</h1>
+                </a>
+            </div>
+            <p class="font-bold text-[#737373]">
+                Connecting creativity and craftsmanship, we deliver innovative solutions that elevate <br> every project
+                to its highest potential.
+            </p>
+        </aside>
+        <nav>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 gap-20">
+                    <li class="font-extrabold"><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <a href="#"
+                class="bg-[#ABEF5F] border-none rounded-full md:inline-flex items-center py-2 px-4 space-x-3 hidden mt-7">
+                <h2 class="text-black font-bold text-base">Book Consult</h2>
+                <div class="rounded-full text-white bg-[#1C1C1C] p-1 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="h-4 w-4">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                </div>
+            </a>
+        </nav>
+    </footer>
 </body>
 
 </html>
