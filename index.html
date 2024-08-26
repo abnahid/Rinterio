@@ -80,8 +80,8 @@
 
                         <!-- Book Consult Button -->
                         <a href="#"
-                            class="bg-[#ABEF5F] border-none rounded-full md:inline-flex items-center py-2 px-4 space-x-3 hidden">
-                            <h2 class="text-black font-bold text-base">Book Consult</h2>
+                            class="bg-[#ABEF5F] text-black font-bold py-2 px-4 rounded-full md:flex items-center gap-2 hidden">Book
+                            Consult
                             <div class="rounded-full text-white bg-[#1C1C1C] p-1 flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
@@ -94,8 +94,8 @@
                     </div>
 
 
-                    <div class="dropdown dropdown-left lg:hidden">
-                        <div tabindex="0" role="button" class="btn btn-ghost text-4xl">
+                    <div class="dropdown dropdown-bottom dropdown-end lg:hidden">
+                        <div tabindex="0" role="button" class="btn btn-circle bg-white text-2xl m-1">
                             <i class="fa-regular fa-bars"></i>
                         </div>
                         <ul tabindex="0"
@@ -634,6 +634,81 @@
             </div>
         </section>
 
+        <!-- FAQs section -->
+        <section class="my-24">
+            <div class="container mx-auto p-5">
+
+                <!-- Text -->
+                <div class=" flex flex-col items-center justify-center gap-6 font-extrabold pb-8">
+                    <div
+                        class="bg-[#ABEF5F33] bg-opacity-50 border-none rounded-full flex items-center space-x-3 py-3 px-5">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>
+                        </div>
+                        <h4 class="text-[#494949] font-bold"> FAQs</h4>
+                    </div>
+                    <h2 class="text-3xl lg:text-5xl font-bold ">Frequently Asked Questions</h2>
+                    <p class="text-[#494949] text-center max-w-2xl ">Find quick answers to the most common questions
+                        about our services, process, and rental policies. Let us clarify your doubts!</p>
+                </div>
+
+                <!-- FAQs -->
+                <div class="space-y-5">
+                    <div class="collapse collapse-arrow bg-white ">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">What types of furniture can I rent from
+                            Rinterio?
+                        </div>
+                        <div class="collapse-content">
+                            <p>We offer a wide range of furniture, including living room sets, bedroom furniture, office
+                                pieces, and outdoor furnishings. </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-white ">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">How long is the rental period?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Our rental periods are flexible, ranging from short-term (1 month) to long-term (12
+                                months or more), depending on your needs. </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-white ">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">What happens if an item gets damaged during the
+                            rental period?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Minor wear and tear is expected, but significant damage may incur a repair fee. Contact
+                                us immediately to discuss any issues.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-white">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">Can I extend my rental period?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, you can easily extend your rental period by contacting our customer support team
+                                before your current contract ends. </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-white">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">Do you offer delivery and setup services?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, we provide free delivery and setup for all rentals within our service area. Our team
+                                ensures a hassle-free experience. </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
         <!-- Form Section -->
         <section class="bg-cover bg-center p-1 md:p-2  bg-white">
             <div style="background-image: url('./assets/bg.jpg')">
@@ -690,7 +765,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer footer-center gap-y-10 bg-[#1C1C1C] text-[#E9E9E9] p-24 mb-4">
+    <footer class="footer footer-center gap-y-10 bg-[#1C1C1C] text-[#E9E9E9] p-24">
         <aside>
             <div>
                 <a href="#" class="text-xl font-extrabold flex items-center space-x-2">
